@@ -1,0 +1,165 @@
+ul a {
+    text-decoration: none;
+    color: #ffffff;
+}
+ul {list-style: none;}
+
+nav ul li{float: left;
+    margin-right: 10px;
+    border-right: 2px solid #000000;
+    background-color: #ff9633;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height:50px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-shadow: 8px 8px 8px 1px #4186a175; 
+-moz-box-shadow: 8px 8px 8px 1px #4186a175; 
+-webkit-box-shadow: 8px 8px 8px 1px #4186a175;
+}
+
+.contenedor {
+    background-color: #e7af7a;
+    margin: 0px 50px;
+    border: #e0720b 2px solid;
+    border-radius: 20px;
+    padding: 10px;
+}
+/*^Arriba se ha puesto los pixeles del margin de manera que el código entiende que con 0px se refiere al eje vertical (arriba y abajo) y con 50px, al eje horizontal (derecha e izquierda.*/
+
+div.separador {
+    clear:both;
+}
+
+/*ZONA BOTONES Y LINKS*/
+
+.boton:hover{
+    background-color: #f1a45b;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+a:hover{
+    color: #e47a17  
+}
+
+span.icon{
+    font-size: 2em;
+    color: #e0720b;
+    border: #e0720b 2px solid;
+    background-color: #eec450;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    justify-content: center;
+}
+
+.boton{
+    font-size: 16px;
+    text-decoration:none;
+    color:#ffffff;
+    background-color: #e0720b;
+    border: #b93805 4px dotted;
+    border-radius: 8px;
+    padding: 25px 10px;
+    margin: 5px;
+    justify-content: center;
+}
+
+/*FIN ZONA BOTONES Y LINKS*/
+
+h1, h2, h3{
+    border: #e0720b 2px solid;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px;
+    background-color: #eec450;
+    color: #e0720b;
+}
+
+.contacto{
+    font-family: "Jacquard 12", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    margin: 30px;
+    border: #ffffff 2px solid;
+    border-radius: 20px;
+    background-color: #eec450;
+    padding: 20px;
+}
+
+.formulario{
+    border: #ffffff 2px solid;
+    text-align:left;
+    padding: 30px;
+    box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.27); 
+-moz-box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.27); 
+-webkit-box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.27);
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .jacquard-12-regular {
+    font-family: "Jacquard 12", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .gwendolyn-regular {
+    font-family: "Gwendolyn", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .gwendolyn-bold {
+    font-family: "Gwendolyn", cursive;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+.foto{
+    background-image: url("https://i.pinimg.com/originals/9b/6a/14/9b6a149e1c2e49132451346e5d704db1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+footer{
+    background-color:#e67c1a;
+    border: #8a4607 2px solid;
+    border-radius: 20px;
+    margin: 50px;
+    color:#ffffff;
+}
+
+  footer p{
+    margin: 15px;
+  }
+  footer img{
+    width: 35px;
+    margin: 10px;
+  }
+  footer div.text-foot{
+    float: left;
+    display: flex;
+    justify-content: flex-start;
+    width: 40%;
+  }
+  footer div.redes-foot{
+    padding-left: 200px;
+    display: flex;
+    justify-content: flex-end;
+  
+  }
+  
